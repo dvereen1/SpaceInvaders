@@ -6,7 +6,7 @@ Protect your space from the invaders.
 
 ## PHP Includes
 
-In the [brickBreaker.php file](https://github.com/dvereen1/SpaceInvaders/blob/main/spaceInvaders.php), you'll notice some includes.
+In the [spaceInvaders.php file](https://github.com/dvereen1/SpaceInvaders/blob/main/spaceInvaders.php), you'll notice some includes.
 
 `<?php include_once("headNoNav.php"); ?>`
 
