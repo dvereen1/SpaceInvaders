@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --txt-color: #242424;
+    --max-width: 90rem;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+/*------------Navigation-------------*/
+header{
+    height: 6rem;
+    padding: 0 2rem;
+    color: var(--txt-color);
+    background-color: #e6e6e6;
+    
+}
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.logo{
+    text-decoration: none;
+    color: inherit;
+    font-size: 2rem;
+}
+#menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu-link a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    color: inherit;
+    padding: .5rem 1rem;
+}
+.menu-link:hover{
+    background-color: var(--txt-color);
+    color: #fff;
+    border-radius: .35rem;
+}
+.djv-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.game-title{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+#canvas{
+    border: .2rem dashed #000;
+    margin-bottom: 2rem;
+}
+
+.gameInfo{
+    width: 30rem;
+    align-self: center;   
+}
+.gameInfo h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.gameInfo p{
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+}
+.instructions{
+    margin-bottom: 3rem;
+}
+.fa-bug{
+    font-size: 3.5rem;
+}
+.gi-title{
+    text-align: center;
+   
+}
