@@ -6,16 +6,11 @@ Protect your space from the invaders.
 
 ## Includes and Other Links
 
-In the [spaceInvaders.php file](https://github.com/dvereen1/SpaceInvaders/blob/main/spaceInvaders.php), you'll notice some file includes and references which exist outside the current directory.
+Throughout this project, you'll notice some file includes and references which both exist outside the current directory and are used by other projects.
 
-`<?php include_once("headNoNav.php"); ?>`
-
-`<?php include_once("Classes/projectInfoModal.php");
-    createProjectModal("Space Invaders", $projectModalArr);
-?>`
-
-`<link rel = "stylesheet" href = "/CSS/allProjectsModal.css">`
-
-`<script src = "/JS/allProjectsModal.js"></script>`
+* [allProjectsModal.css](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/allProjectsModal.css)
+* [allProjectsModal.js](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/allProjectsModal.js)
+* [headNoNav.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/headNoNav.php)
+* [projectInfoModal.php](https://github.com/dvereen1/PHP-JS-CSS-Includes/blob/main/projectInfoModal.php)
 
 You can view these files at [PHP-JS-CSS-Includes](https://github.com/dvereen1/PHP-JS-CSS-Includes).
